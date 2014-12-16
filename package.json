@@ -1,0 +1,31 @@
+{
+  "name": "flows",
+  "version": "1.0.0",
+  "description": "a prototype streams implementation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "6to5-node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/flows.git"
+  },
+  "keywords": [
+    "streams",
+    "flows"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdickinson/flows/issues"
+  },
+  "homepage": "https://github.com/chrisdickinson/flows",
+  "dependencies": {
+    "glob": "^4.3.1",
+    "traceur": "0.0.79",
+    "traceur-source-maps": "^1.0.6"
+  }
+}
